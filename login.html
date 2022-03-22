@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tender</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        
+        <div class="box-1">
+            <div class="content-holder">
+                <h2>Welcome User!</h2>
+                <button class="button-1" onclick="signup()">Sign up</button>
+                <button class="button-2" onclick="login()">Login</button>
+            </div>
+        </div>
+  
+        
+
+        
+        <div class="box-2">
+            <div class="login-form-container">
+                <h1 style="margin-top: 30%;">Login Form</h1>
+                <form action="" method="post">
+                    <input type="email" placeholder="Email" class="input-field">
+                    <br><br>
+                    <input type="password" placeholder="Password" class="input-field">
+                    <br><br>
+                    <button class="login-button" type="button">Login</button>
+                </form>
+            </div>
+  
+  
+  
+        <div class="signup-form-container">
+            <h1>Sign Up Form</h1>
+            <form action="" method="post">
+                <input type="text" placeholder="GST NO" class="input-field">
+                <br><br>
+                <input type="text" placeholder="Organization Name" class="input-field">
+                <br><br>
+                <input type="email" placeholder="Email" class="input-field">
+                <br><br>
+                <select class="form-select input-field">
+                    <option selected>Select Type</option>
+                    <option value="1">MNC</option>
+                    <option value="2">Private</option>
+                    <option value="3">Other</option>
+                </select>
+                <br><br>
+                <input type="number" placeholder="No of projects done" class="input-field">
+                <br><br>
+                <!-- <input type="email" placeholder="Email" class="input-field">
+                <br><br>  -->
+                <input type="password" placeholder="Password" class="input-field">
+                <br><br>
+                <button class="signup-button" type="button">Sign Up</button>
+            </form>
+        </div>
+        </div>
+
+  </body>
+</html>
